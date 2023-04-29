@@ -42,7 +42,15 @@ The raw data is coming from [Youtube VOS 2018](https://codalab.lisn.upsaclay.fr/
 We use four different video inpainting methods to create new videos. They are [E2FGVI](https://github.com/MCG-NKU/E2FGVI), [FGT](https://github.com/hitachinsk/FGT), [FuseFormer](https://github.com/ruiliu-ai/fuseformer), and [STTN](https://github.com/researchmm/STTN), respectively. We used [XMEM](https://github.com/hkchengrex/XMem) to generate the inpainting mask.
 
 
-<!-- 放图 -->
+<video width="320" height="240" controls>
+  <source src="figures/tvil_videos/c3bb62a2f7_result.mp4" type="video/mp4">
+ Inpainting Video.
+</video>
+
+<video width="320" height="240" controls>
+  <source src="figures/tvil_videos/5ef6573a99_result.mp4" type="video/mp4">
+ Inpainting Video.
+</video>
 
 ### d. Feature Extract
 We also provided [TSN features](https://pan.baidu.com/s/1h3sHu56z3slJnPCH47QRsg?pwd=8tj1) (code：8tj1) as used in the paper, specifically extracted by [mmaction2](https://github.com/open-mmlab/mmaction2).
