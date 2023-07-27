@@ -1,0 +1,8 @@
+python tools/tsn_feature_extraction.py  --data-prefix data/lavdf/frames/train --data-list data/lavdf/filelist/train.txt --output-prefix data/lavdf/feats/tsn/rgb/train --modality RGB --ckpt mmaction2/pretrained/tsn_r50_320p_1x1x8_50e_activitynet_clip_rgb_20210301-c0f04a7e.pth
+python tools/tsn_feature_extraction.py  --data-prefix data/lavdf/frames/train --data-list data/lavdf/filelist/train.txt --output-prefix data/lavdf/feats/tsn/flow/train --modality Flow --ckpt mmaction2/pretrained/tsn_r50_320p_1x1x8_150e_activitynet_clip_flow_20200804-8622cf38.pth
+python tools/tsn_feature_extraction.py  --data-prefix data/lavdf/frames/dev --data-list data/lavdf/filelist/dev.txt --output-prefix data/lavdf/feats/tsn/rgb/dev --modality RGB --ckpt mmaction2/predeved/tsn_r50_320p_1x1x8_50e_activitynet_clip_rgb_20210301-c0f04a7e.pth
+python tools/tsn_feature_extraction.py  --data-prefix data/lavdf/frames/dev --data-list data/lavdf/filelist/dev.txt --output-prefix data/lavdf/feats/tsn/flow/dev --modality Flow --ckpt mmaction2/pretrained/tsn_r50_320p_1x1x8_150e_activitynet_clip_flow_20200804-8622cf38.pth
+python tools/tsn_feature_extraction.py  --data-prefix data/lavdf/frames/test --data-list data/lavdf/filelist/test.txt --output-prefix data/lavdf/feats/tsn/rgb/test --modality RGB --ckpt mmaction2/pretested/tsn_r50_320p_1x1x8_50e_activitynet_clip_rgb_20210301-c0f04a7e.pth
+python tools/tsn_feature_extraction.py  --data-prefix data/lavdf/frames/test --data-list data/lavdf/filelist/test.txt --output-prefix data/lavdf/feats/tsn/flow/test --modality Flow --ckpt mmaction2/pretrained/tsn_r50_320p_1x1x8_150e_activitynet_clip_flow_20200804-8622cf38.pth
+
+
