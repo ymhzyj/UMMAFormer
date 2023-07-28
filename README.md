@@ -148,7 +148,7 @@ This folder
 │   ...
 ```
 
-2. Training and Evaluation
+3. Training and Evaluation
    Train our UMMAFomrer with TSN and BYOL-A features. This will create an experiment folder _./paper_results_ that stores training config, logs, and checkpoints.
     ```shell
     python ./train.py ./configs/UMMAFormer/dataset.yaml
@@ -162,7 +162,7 @@ This folder
     python tools/test_miou.py
     ```
     You need to modify the 'split' variable in the code, as well as the addresses of the labels and results.
-3. Evaluating Our Pre-trained Model
+4. Evaluating Our Pre-trained Model
    We also provide a pre-trained models.
 
 | Dataset        | Modal | Config | Pretrained |  AP@0\.5 |  AP@0\.75 | AP@0\.95 | AR@10    | AR@20  |  AR@50 | AR@100 |
