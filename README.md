@@ -22,7 +22,7 @@
 School of Cyber Science and Engineering, Sichuan University
 </div>
 
-**Temporal Video Inpainting Localization(TVIL) dataset** and pytorch training/validation code for **UMMAFormer**. This is the official repository of our Work accepted to ACM MM'23. If you have any question, please contact _zhangrui1997[at]stu.scu.edu.cn_. The paper will be available soon.
+**Temporal Video Inpainting Localization(TVIL) dataset** and pytorch training/validation code for **UMMAFormer**. This is the official repository of our Work accepted to ACM MM'23. If you have any question, please contact _zhangrui1997[at]stu.scu.edu.cn_. The paper can be found in [arxiv](https://arxiv.org/abs/2308.14395).
 
 <p align="center">
 <img src="./figures/overview_frameworks.png" alt="drawing" width="70%" height="70%"/>
