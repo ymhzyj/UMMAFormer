@@ -6,8 +6,8 @@
 [![Conference](https://img.shields.io/badge/ACM%20MM-2023-orange)](https://www.acmmm2023.org/)
 
 
-<a href="https://paperswithcode.com/sota/temporal-forgery-localization-on-lav-df?p=ummaformer-a-universal-multimodal-adaptive">
-    <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ummaformer-a-universal-multimodal-adaptive/temporal-forgery-localization-on-lav-df&style=flat-square">
+<a href="https://paperswithcode.com/sota/temporal-forgery-localization-on-lav-df?p=ummaformer-a-universal-multimodal-adaptive-1">
+    <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ummaformer-a-universal-multimodal-adaptive-1/temporal-forgery-localization-on-lav-df&style=flat-square">
 </a>
 
 <!-- [![License](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/nku-shengzheliu/SER30K/blob/main/LICENSE) -->
