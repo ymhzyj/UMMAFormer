@@ -106,7 +106,7 @@ The code should be recompiled every time you update PyTorch.
 1. Download Features and Annotations
     We provided the following features and annotations for download:
     
-    annotations and features of TVIL from [BaiduYun](https://pan.baidu.com/s/1GGwfkjjYlBtQyB4uVU38mA?pwd=k6jq) (code：k6jq)
+    annotations and features of Lav-DF from [BaiduYun](https://pan.baidu.com/s/1GGwfkjjYlBtQyB4uVU38mA?pwd=k6jq) (code：k6jq)
 
     annotations and Features of Psynd from [BaiduYun](https://pan.baidu.com/s/1CgkDNeisV9HtfqEzzYyIhQ?pwd=m6iq) (code：m6iq)
 
