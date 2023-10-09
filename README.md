@@ -50,7 +50,7 @@ The emergence of  artificial intelligence-generated content~(AIGC) has raised co
 ## TVIL dataset
 
 ### a. Data Download
-If you need the TVIL dataset for academic purposes, please download the full data from [BaiduYun Disk](https://pan.baidu.com/s/1h3sHu56z3slJnPCH47QRsg?pwd=8tj1) (8tj1).
+If you need the TVIL dataset for academic purposes, please download the full data from [BaiduYun Disk](https://pan.baidu.com/s/1h3sHu56z3slJnPCH47QRsg?pwd=8tj1) (8tj1) or [OneDrive](https://1drv.ms/f/s!AgVmq0AY0Su8grknz_DKYQN2IbA63Q?e=hi5mbj).
 
 ### b. Data Sources
 The raw data is coming from [Youtube VOS 2018](https://codalab.lisn.upsaclay.fr/competitions/7685#participate-get_data).
@@ -108,7 +108,9 @@ The code should be recompiled every time you update PyTorch.
     
     annotations and features of Lav-DF from [BaiduYun](https://pan.baidu.com/s/1GGwfkjjYlBtQyB4uVU38mA?pwd=k6jq) (code：k6jq)
 
-    annotations and Features of Psynd from [BaiduYun](https://pan.baidu.com/s/1CgkDNeisV9HtfqEzzYyIhQ?pwd=m6iq) (code：m6iq)
+    annotations and features of Psynd from [BaiduYun](https://pan.baidu.com/s/1CgkDNeisV9HtfqEzzYyIhQ?pwd=m6iq) (code：m6iq)
+
+    annotations and features of TVIL from [BaiduYun Disk](https://pan.baidu.com/s/1h3sHu56z3slJnPCH47QRsg?pwd=8tj1) (8tj1) or [OneDrive](https://1drv.ms/f/s!AgVmq0AY0Su8grknz_DKYQN2IbA63Q?e=hi5mbj)
 
     These features are the same as those used in our paper and are extracted using the bylo-a and tsn models. They can be directly used for training and testing. The labels, on the other hand, have been converted from their original different forms to fit the format of our code. The ground truth values remain unchanged and are the same as the original ones.
 
