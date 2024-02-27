@@ -171,7 +171,7 @@ This folder
     ```
     You need to modify the 'split' variable in the code, as well as the addresses of the labels and results.
 4. Evaluating Our Pre-trained Model
-   We also provide a pre-trained models.
+   We also provide a pre-trained models. The following link is for Baidu cloud drive. Considering that some users may not be able to access it, we have additionally provided a [OneDrive link](https://1drv.ms/u/s!AgVmq0AY0Su8grtFydwbVa-fdxMdmQ?e=H71mMB).
 
 | Dataset        | Modal | Config | Pretrained |  AP@0\.5 |  AP@0\.75 | AP@0\.95 | AR@10    | AR@20  |  AR@50 | AR@100 |
 |----------------|-------|--------|------------|----------|-----------|----------|----------|--------|--------|--------|
