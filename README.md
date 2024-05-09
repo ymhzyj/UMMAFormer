@@ -28,7 +28,7 @@
 School of Cyber Science and Engineering, Sichuan University
 </div>
 
-**Temporal Video Inpainting Localization(TVIL) dataset** and pytorch training/validation code for **UMMAFormer**. This is the official repository of our Work accepted to ACM MM'23. If you have any question, please contact _zhangrui1997[at]stu.scu.edu.cn_. The paper can be found in [arxiv](https://arxiv.org/abs/2308.14395).
+**Temporal Video Inpainting Localization(TVIL) dataset** and pytorch training/validation code for **UMMAFormer**. This is the official repository of our Work accepted to ACM MM'23. If you have any question, please contact _zhangrui1997[at]stu.scu.edu.cn_. The paper can be found in [arxiv](https://arxiv.org/abs/2308.14395)　or [ACM MM](https://dl.acm.org/doi/abs/10.1145/3581783.3613767).
 
 <p align="center">
 <img src="./figures/overview_frameworks.png" alt="drawing" width="70%" height="70%"/>
@@ -106,7 +106,7 @@ The code should be recompiled every time you update PyTorch.
 1. Download Features and Annotations
     We provided the following features and annotations for download:
     
-    annotations and features of Lav-DF from [BaiduYun](https://pan.baidu.com/s/1GGwfkjjYlBtQyB4uVU38mA?pwd=k6jq) (code：k6jq)
+    annotations and features of Lav-DF from [BaiduYun](https://pan.baidu.com/s/1GGwfkjjYlBtQyB4uVU38mA?pwd=k6jq) (code：k6jq) or [OneDrive](https://1drv.ms/f/s!AgVmq0AY0Su8gr05BrQEdS2BE9f75A?e=8L9GFk)
 
     annotations and features of Psynd from [BaiduYun](https://pan.baidu.com/s/1CgkDNeisV9HtfqEzzYyIhQ?pwd=m6iq) (code：m6iq)
 
@@ -202,7 +202,25 @@ This folder
 
 ## Cite UMMAFormer
 
-
+```shell
+@inproceedings{DBLP:conf/mm/ZhangWDLZZ23,
+  author       = {Rui Zhang and
+                  Hongxia Wang and
+                  Mingshan Du and
+                  Hanqing Liu and
+                  Yang Zhou and
+                  Qiang Zeng},
+  title        = {UMMAFormer: {A} Universal Multimodal-adaptive Transformer Framework
+                  for Temporal Forgery Localization},
+  booktitle    = {Proceedings of the 31st {ACM} International Conference on Multimedia,
+                  {MM} 2023, Ottawa, ON, Canada, 29 October 2023- 3 November 2023},
+  pages        = {8749--8759},
+  publisher    = {{ACM}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3581783.3613767},
+  doi          = {10.1145/3581783.3613767},
+}
+```
 
 ## Acknowledgement
 
