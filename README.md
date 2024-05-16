@@ -87,6 +87,7 @@ We also provided [TSN features](https://pan.baidu.com/s/1h3sHu56z3slJnPCH47QRsg?
 - Pandas
 - h5py
 - joblib
+- einops
 
 
 ### Compilation
@@ -145,10 +146,15 @@ This folder
 │    │	 　　　   └───train   
 │    │	 　　　   └───dev   
 │    │	 　　　   └───test   
-│    │	 　　　└───tsn   
-│    │	 　　　   └───train   
-│    │	 　　　   └───dev   
-│    │	 　　　   └───test   
+│    │	 　　  └───tsn   
+│    │	 　　　   └───flow
+│    │	 　　　      └───train   
+│    │	 　　　      └───dev   
+│    │	 　　　      └───test  
+│    │	         └───rgb
+│    │	 　　　      └───train   
+│    │	 　　　      └───dev   
+│    │	 　　　      └───test
 │    └───...
 |
 └───libs
@@ -157,7 +163,7 @@ This folder
 ```
 
 3. Training and Evaluation
-   Train our UMMAFomrer with TSN and BYOL-A features. This will create an experiment folder _./paper_results_ that stores training config, logs, and checkpoints.
+   Train our UMMAFormer with TSN and BYOL-A features. This will create an experiment folder _./paper_results_ that stores training config, logs, and checkpoints.
     ```shell
     python ./train.py ./configs/UMMAFormer/dataset.yaml
     ```
